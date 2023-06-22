@@ -1,137 +1,126 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-header {
+body>header {
+    background-color: #2f3640;
     padding: 16px 0;
-    background-color: #ddbab3;
-    color: #303030;
+    color: #f5f6fa;
 }
 
-header img {
-    height: 100px;
-}
-
-body, input, textarea {
-    font-family: 'Roboto', sans-serif;
-}
-
-header,
-header h1,
-section h2,
-section h3,
-form button {
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-}
-
-header nav li {
-    display: inline;
-    margin-left: 30px;
-    font-size: 16px;
-    
-}
-
-header nav li a {
-    color: #303030;
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-header .container,
-section .container {
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.social-links img {
-    height: 24px;
-}
-
-.social-links li {
+header li {
     display: inline;
-    margin-right: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
 }
 
-.social-links li a {
+header li a {
+    color: #f5f6fa;
     text-decoration: none;
 }
 
-section .container{
-    align-items: flex-start;
+.container {
+    width: 1366px;
+    margin: 0 auto;
 }
 
-section {
-    padding: 24px 0;
-    color: #303030;
-}
-
-section h2 {
-    padding-bottom: 16px;
-}
-
-section p {
-    padding-bottom: 8px;
-}
-
-.store-front {
-    margin-right: 32px;
-}
-
-#contact .container {
-    display: block;
-}
-
-.contact-methods {
+.articles {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
-    font-family: 'Roboto', sans-serif;
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+    /* Largura da imagem é 100%*/
 }
 
-form textarea {
-    resize: none;
-    height: 180px;
+.articles article {
+    width: 30%;
 }
 
-section h3 {
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
     margin-bottom: 16px;
 }
 
-form button {
-    background-color: #ddbab3;
-    color: #303030;
-    border: none;
-    cursor: pointer;
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
-form button:hover {
-    background-color: #a5776f;
+.articles article a {
+    background-color: blue;
     color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
 }
 
-input:focus, textarea:focus {
-    outline-color: #303030;
+.articles article a:hover {
+    text-decoration: underline;
 }
 
-footer {
-    background-color: #ddbab3;
-    color: #303030;
-    padding: 16px 0;
+.articles article p,
+/* "p" é paragrafo */
+.articles article a {
+    /* "a" é link */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    /* Se lê "Em articles tenho um article do tipo h3" */
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+#cinema {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+#cinema .articles article a {
+    background-color: #ff0000;
+}
+
+#technology {
+    background-color: #dad3ff;
+}
+
+#technology .articles article a {
+    background-color: #1100ff;
 }

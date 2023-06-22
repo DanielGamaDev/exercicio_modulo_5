@@ -1,95 +1,245 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fernanda Foligno</title>
-    <link rel="stylesheet" href="./main.css"> 
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 
 <body>
     <header>
         <div class="container">
-            <img src="imagens/LogoSemFundo2.png" alt="Logo Fernanda Foligno">
+            <h1>Meu portal de notícias</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#sobre">Sobre a loja</a>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
                     </li>
                     <li>
-                        <a href="#contato">Contato</a>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#cinema" title="Ir para a seção de esportes">Cinema</a>
+                    </li>
+                    <li>
+                        <a href="#technology" title="Ir para a seção de notícias">Tecnologia</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section id="about">
+    <section id="sports">
         <div class="container">
-            <div>
-                <h2>Sobre a loja</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit culpa qui maiores veritatis
-                    adipisci voluptates ut enim aut obcaecati amet laboriosam sint, magnam minima? Eius quasi modi
-                    voluptate doloribus!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit culpa qui maiores veritatis
-                    adipisci voluptates ut enim aut obcaecati amet laboriosam sint, magnam minima? Eius quasi modi
-                    voluptate doloribus!
-                </p>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Contato</h2>
-            <div class="contact-methods">
-                <div>
-                    <h3>Fale conosco</h3>
-                    <form action="">
-                        <input type="text" placeholder="Seu nome" required>
-                        <input type="email" placeholder="Seu e-mail" required>
-                        <input type="tel" placeholder="Seu telefone (opcional)">
-                        <textarea placeholder="Sua mensagem" name="Mensagem usuário" id="" cols="30" rows="10"></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
-                </div>
-                <div>
-                    <h3>Nos acompanhe</h3>
-                    <ul class="social-links">
-                        <li>
-                            <a href="#" title="Siga-nos no Instagram">
-                                <img src="imagens/instagram.png" alt="Logo do Instagram">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Siga-nos no Facebook">
-                                <img src="imagens/facebook.png" alt="Logo do Facebook">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Venha até nós</h3>
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
                     <p>
-                        Rua Vereador José Martins da Costa n°163, Ponte da Saudade - Nova Friburgo - RJ
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
                     </p>
-                </div>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/futebol-americano.jpg"
+                        alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
             </div>
         </div>
     </section>
-    <footer>
+    <section id="economy">
         <div class="container">
-            <p>
-                &copy; Fernanda Foligno - Todos os direitos reservados - 2023
-            </p>
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
         </div>
-    </footer>
+    </section>
+    <section id="cinema">
+        <div class="container">
+            <h2>Cinema</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/batman.jpg" alt="Filme Batman" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Novo filme de Batman é revelado</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/home-alone.jpg" alt="Esqueceram de mim" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Esqueceram de mim volta aos cinemas com um especial de 30 anos</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/novas-formas.jpg" alt="Balde de pipoca" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Novas formas de consiguir desconto no cinema já estão disponíveis</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="technology">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/br-tecnologia.jpg" alt="Brasil Tecnologia" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Feiras de tecnologia pelo Brasil</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/crianca.jpg" alt="Criança Tecnologia" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Novas tecnologias para o ensino de crianças chegam nas escolas públicas</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/graficos.jpg" alt="Graficos" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Gráficos demonstram altos índices de desenvolvimento tecnológico</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam
+                        labore
+                        architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error?
+                        Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
