@@ -40,9 +40,8 @@ header li a {
 }
 
 .articles article img {
-    /* height: 180px; */
+    height: 275px;
     width: 100%;
-    /* Largura da imagem é 100%*/
 }
 
 .articles article {
@@ -93,34 +92,34 @@ section h2 {
     font-size: 32px;
 }
 
-#sports {
-    background-color: rgba(0, 255, 0, 0.1);
+#sobre {
+    background-color: rgba(44, 16, 168, 0.212);
 }
 
-#sports .articles article a {
-    background-color: #009432;
+#sobre .articles article a {
+    background-color: #0b138f;
 }
 
-#economy {
+#formacao {
     background-color: #f8f59f;
 }
 
-#economy .articles article a {
+#formacao .articles article a {
     background-color: #ff9f1a;
 }
 
-#cinema {
+#portifolio {
     background-color: rgba(255, 0, 0, 0.1);
 }
 
-#cinema .articles article a {
+#portifolio .articles article a {
     background-color: #ff0000;
 }
 
-#technology {
+#contato {
     background-color: #dad3ff;
 }
 
-#technology .articles article a {
+#contato .articles article a {
     background-color: #1100ff;
 }
