@@ -63,7 +63,7 @@ section h2,
 }
 
 .articles article a {
-    background-color: blue;
+    background-color: rgb(4, 0, 255);
     color: #fff;
     padding: 8px;
     display: inline-block;
@@ -93,33 +93,25 @@ section h2 {
 }
 
 #sobre {
-    background-color: rgba(44, 16, 168, 0.212);
+    background-color: #fff;
 }
 
 #sobre .articles article a {
-    background-color: #0b138f;
+    background-color: #fff;
+    color: #303030;
 }
 
 #formacao {
-    background-color: #f8f59f;
-}
-
-#formacao .articles article a {
-    background-color: #ff9f1a;
+    background-color: #2f3640;
+    color: #fff;
 }
 
 #portifolio {
-    background-color: rgba(255, 0, 0, 0.1);
-}
-
-#portifolio .articles article a {
-    background-color: #ff0000;
+    background-color: #fff;
+    color: #303030;
 }
 
 #contato {
-    background-color: #dad3ff;
-}
-
-#contato .articles article a {
-    background-color: #1100ff;
+    background-color: #2f3640;
+    color: #fff;
 }
