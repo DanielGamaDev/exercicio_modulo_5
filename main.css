@@ -117,6 +117,10 @@ section h2 {
     color: #fff;
 }
 
+#contato h3 {
+    text-align: center;
+}
+
 form input,
 form textarea,
 form button {
@@ -144,10 +148,15 @@ form button {
 }
 
 form button:hover {
-    background-color: #beffc9;
+    background-color: #a7d0ff;
     color: #000000;
 }
 
 input:focus, textarea:focus {
     outline-color: #001e4b;
+}
+
+#inner {
+    margin: 0 auto;
+    width: 23%;
 }
