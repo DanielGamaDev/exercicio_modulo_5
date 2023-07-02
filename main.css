@@ -2,16 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+}                  /* Definindo espaçamentos padrões */
 
-body>header {
+body>header {                      /* Definindo cor de fundo, espaçamento, cor das letras e a fonte no cabeçalho */
     background-color: #19202b;
     padding: 16px 0;
     color: #ffffff;
     font-family: 'Ysabeau Office', sans-serif;
 }
 
-header .container {
+header .container {                /* Definindo cor de fundo, espaçamento, cor das letras e a fonte no cabeçalho */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,18 +29,18 @@ header li a {
     text-decoration: none;
 }
 
-.container {
+.container {                  /* Definindo características da classe container */
     width: 1366px;
     margin: 0 auto;
 }
 
-.articles {
+.articles {                   /* Definindo características da classe articles */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.articles article img {
+.articles article img {        /* Definindo características das imagens dos articles */
     height: 275px;
     width: 100%;
 }
@@ -77,15 +77,12 @@ section h2,
     text-decoration: underline;
 }
 
-.articles article p,
-/* "p" é paragrafo */
-.articles article a {
-    /* "a" é link */
+.articles article p,            /* "p" é paragrafo */
+.articles article a {             /* "a" é link */
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.articles article h3 {
-    /* Se lê "Em articles tenho um article do tipo h3" */
+.articles article h3 {                  /* Se lê "Em articles tenho um article do tipo h3" */
     font-size: 24px;
 }
 
@@ -121,7 +118,7 @@ section h2 {
     text-align: center;
 }
 
-form input,
+form input,     /* Daqui para baixo define as características do formulário como: fontes, espaçamento, cores, etc. */
 form textarea,
 form button {
     display: block;

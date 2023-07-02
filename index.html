@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio Virtual</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./main.css" /><!-- Inclui o arquivo CSS externo -->
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&family=Ysabeau+Office&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> <!-- Inclui a fonte do Google Fonts -->
 </head>
 
-<body>
-    <header>
-        <div class="container">
-            <h1>Portifólio Virtual</h1>
-            <nav>
+<body>  
+    <header>  <!-- Cria um cabeçalho -->
+        <div class="container">  <!-- Cria uma div e a coloca na classe "container" -->
+            <h1>Portifólio Virtual</h1>     <!-- Inclui o título do website -->
+            <nav>                <!-- Menu de navegação -->
                 <ul>
-                    <li>
-                        <a href="#sobre" title="Ir para a seção de esportes">Sobre mim</a>
+                    <li>   <!-- A partir daqui cria alguns tópicos do menu e seus respectivos links que levam -->
+                        <a href="#sobre" title="Ir para a seção de esportes">Sobre mim</a> 
                     </li>
                     <li>
                         <a href="#formacao" title="Ir para a seção de notícias">Formação</a>
@@ -32,29 +32,27 @@
                 </ul>
             </nav>
         </div>
-    </header>
-    <section id="sobre">
+    </header>  <!-- Finaliza o cabeçalho -->
+    <section id="sobre">         <!-- ID que "puxa" o link criado anteriormente no menu para esta seção -->
         <div class="container">
-            <h2>Sobre mim</h2>
+            <h2>Sobre mim</h2>  <!-- Título da seção -->
             <div class="articles">
                 <article>
-                    <img src="./imagens/foto-de-perfil.jpg" alt="Foto de Daniel Gama" />
-                    <h3>Um pouco sobre mim</h3>
-                    <br>
-                    <p>
+                    <img src="./imagens/foto-de-perfil.jpg" alt="Foto de Daniel Gama" /> <!-- Adiciona imagem -->
+                    <h3>Um pouco sobre mim</h3>  <!-- Adiciona título ao artigo -->
+                    <br>   <!-- Adiciona espaçamento -->
+                    <p>    <!-- Adiciona um parágrafo -->
                         Me chamo Daniel Gama, sou um programador brasileiro de Itaperuna-RJ morando em Nova Friburgo-RJ.
-                        Tenho 21 anos.
+                        Tenho 21 anos e estou cursando Engenharia de Software na Uninter.
                 </article>
                 <article>
                     <img src="./imagens/hobby.png" alt="Foto representativa de hobby" />
                     <h3>Meus hobbies</h3>
-                    <br>
+                    <br>                    <!-- O que foi comentado se repete no código, criando no total 4 seções -->
                     <p>
-                        Meus hobbies são bem variados, geralmente gosto de usar meu tempo livre para ler, assistir
-                        filmes
-                        ou séries, e jogar jogos eletrônicos. Pratico musculação, mas não vejo isto como um hobbie, e
-                        sim como
-                        uma responsabilidade à cumprir comigo mesmo para evitar problemas de saúde.
+                        Meus hobbies são bem variados, geralmente gosto de usar meu tempo livre para ler, assistir filmes
+                        ou séries, e jogar jogos eletrônicos. Pratico musculação, mas não vejo isto como um hobbie,
+                        e sim como uma responsabilidade à cumprir comigo mesmo para evitar problemas de saúde.
                     </p>
                 </article>
                 <article>
@@ -64,8 +62,7 @@
                     <p>
                         Meus objetivos pessoais como programador são de aumentar meus conhecimentos na área a cada dia,
                         enquanto proporciono a melhor experiência possível ao usuário. Tenhos planos de sair do Brasil
-                        futuramente,
-                        conhecer o mundo e aprender novos idiomas.
+                        futuramente, conhecer o mundo e aprender novos idiomas.
                     </p>
                 </article>
             </div>
@@ -155,10 +152,10 @@
             </div>
         </div>
     </section>
-    <section id="contato">
+    <section id="contato"> <!-- Nesta última seção decidi fazer apenas o formulário de contato -->
         <div class="container">
             <h2>Contato</h2>
-            <div id="inner">
+            <div id="inner">  <!-- Usei este ID para alinhar o título e o formulário no centro com o css -->
                 <h3>Fale comigo</h3>
                 <form action="">
                     <input type="text" placeholder="Seu nome" required>
